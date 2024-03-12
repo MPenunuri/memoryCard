@@ -5,7 +5,10 @@ function App() {
   return (
     <>
       <header>
-        <img src="./src/assets/pokemonLogo.png" alt="Pokemon Icon" />
+        <img
+          src="https://www.eventhorizongames.com/images/images/games_logos/Pokemon-logo.png"
+          alt="Pokemon Icon"
+        />
         <h1>The memory game</h1>
       </header>
       <main id="gameContainer">
