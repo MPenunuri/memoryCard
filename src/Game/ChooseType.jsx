@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import getData from "./getData.js";
 import Types from "./ChooseType/Types.jsx";
-import "./ChooseType.css";
+import "./Game.css";
 
 export default function ChooseType({ setType }) {
   const [types, setTypes] = useState([]);

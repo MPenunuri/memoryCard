@@ -1,0 +1,10 @@
+#playOtherBtn, #restartBtn{
+    font-size: 1.25rem;
+    color: rgb(62, 57, 185);
+    font-weight: 800;
+}
+
+#playOtherBtn:hover,
+#restartBtn:hover {
+    color: rgb(188, 63, 161);
+}

@@ -1,7 +1,7 @@
 import Pokemon from "./Pokemon.jsx";
 import randomNums from "./randomNums.js";
 import { v4 as uuidv4 } from "uuid";
-import "./Pokemons.css";
+import "../Game.css";
 
 export default function Pokemons({
   pokemons,

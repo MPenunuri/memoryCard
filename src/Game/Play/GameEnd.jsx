@@ -3,6 +3,7 @@ import Panel from "./GameEnd/Panel.jsx";
 import Play from "../Play.jsx";
 import Game from "../../Game.jsx";
 import scoreState from "../scoreState.js";
+import "./GameEnd/GameEnd.css";
 
 export default function GameEnd({ type, score }) {
   const [otherRound, setOtherRound] = useState(false);

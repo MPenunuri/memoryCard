@@ -1,5 +1,4 @@
 import getIMG from "./getIMG.js";
-import "./Pokemon.css";
 
 export default function Pokemon({
   pokemon,
