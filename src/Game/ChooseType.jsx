@@ -15,7 +15,7 @@ export default function ChooseType({ setType }) {
   return (
     <>
       <p className="instruction">
-        Select wich type of pokemon you want to play!
+        <strong>Select wich type of pokemon you want to play!</strong>
       </p>
       <Types types={types} setType={setType} />
     </>

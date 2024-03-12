@@ -5,5 +5,5 @@ export default async function getIMG(url) {
   const id = (() => {
     return data.pokemon[0].pokemon.url.slice(0, -1).split("pokemon/")[1];
   })();
-  return `https://unpkg.com/pokeapi-sprites@2.0.2/sprites/pokemon/other/dream-world/${id}.svg`;
+  return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${id}.png`;
 }

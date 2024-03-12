@@ -1,4 +1,4 @@
-button.type {
+button {
     width: 100%;
     height: 10rem;
     display: flex;
@@ -10,24 +10,24 @@ button.type {
     box-shadow: 4px 4px 2px 0px rgb(62, 57, 185);
 }
 
-button.type:hover{
+button:hover {
     cursor: pointer;
     box-shadow: 6px 6px 4px 2px rgb(188, 63, 161);
     transform: translate(-10px, -10px);
     transition: all .5s ease 0s;
 }
 
-button.type > h2 {
+button>h2 {
     text-transform: capitalize;
 }
 
-button.type > img {
-    width: 80%;
-    height: 60%;
+button>img {
+    width: 50%;
+    height: auto;
     filter: drop-shadow(4px 2px 4px rgb(85, 79, 241));
 }
 
-button.type:hover img {
+button:hover img {
     filter: drop-shadow(4px 2px 4px rgb(188, 63, 161));
     transition: all .5s ease 0s;
 }

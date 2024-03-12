@@ -1,6 +1,5 @@
 import Type from "./Type.jsx";
 import { v4 as uuidv4 } from "uuid";
-import "./Types.css";
 
 export default function Types({ types, setType }) {
   const validTypes = types.filter(

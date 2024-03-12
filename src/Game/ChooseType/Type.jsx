@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import getIMG from "./getIMG.js";
-import "./Type.css";
 
 export default function Type({ type, setType }) {
   const [srcIMG, setSrcIMG] = useState();

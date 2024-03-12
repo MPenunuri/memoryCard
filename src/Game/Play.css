@@ -1,13 +1,19 @@
 p.instruction {
-    color: white;
     border-radius: 40px;
     color: rgb(62, 57, 185);
     box-shadow: 4px 4px 2px 0px rgb(62, 57, 185);
     background-color: rgb(212, 211, 246);
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 2rem;
-    font-weight: 600;
+    padding: 0;
+    margin: 0;
+    font-size: .75rem;
+}
+
+p.instruction > strong {
+    font-size: 1rem;
+    font-weight: 800;
 }
