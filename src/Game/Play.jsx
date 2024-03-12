@@ -1,3 +1,3 @@
-export default function Play() {
-  return <h2>Play</h2>;
+export default function Play({ type }) {
+  return <h2> {type}</h2>;
 }

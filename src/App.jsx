@@ -5,7 +5,8 @@ function App() {
   return (
     <>
       <header>
-        <h1>Memory Card</h1>
+        <img src="./public/pokemonLogo.png" alt="Pokemon Icon" />
+        <h1>The memory game</h1>
       </header>
       <main id="gameContainer">
         <Game />

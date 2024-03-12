@@ -15,6 +15,7 @@ export default function Type({ type, setType }) {
       className="type"
       aria-label={`Select Pokemon Type: ${type.name}`}
       onClick={() => setType(type.name)}
+      type="button"
     >
       <h2 aria-disabled="true"> {type.name} </h2>
       <img src={srcIMG} alt={`Pokemon example: ${type.name}`} />

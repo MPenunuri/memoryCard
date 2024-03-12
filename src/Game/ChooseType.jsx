@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import getData from "./getData.js";
 import Types from "./ChooseType/Types.jsx";
+import "./ChooseType.css";
 
 export default function ChooseType({ setType }) {
   const [types, setTypes] = useState([]);
@@ -11,5 +12,12 @@ export default function ChooseType({ setType }) {
       setTypes(data.results);
     })();
   }, []);
-  return <Types types={types} setType={setType} />;
+  return (
+    <>
+      <p className="instruction">
+        Select wich type of pokemon you want to play!
+      </p>
+      <Types types={types} setType={setType} />
+    </>
+  );
 }

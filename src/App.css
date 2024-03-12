@@ -1,7 +1,8 @@
 body {
-    height: 100 vh;
+    height: 100vh;
     width: 100vw;
     background-color: gainsboro;
+    margin: 0;
 }
 
 #root {
@@ -10,16 +11,54 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 100vh;
 }
 
 header {
-    margin-top: .5rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    margin-bottom: .125rem;
     font-weight: bold;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    box-shadow: -1px 4px 2px 0px rgb(62, 57, 185);
+    z-index: 1;
+    background-color: rgb(113, 111, 243);
+}
+
+header > img {
+    height: 8rem;
+    width: auto;
+}
+
+h1 {
+    font-size: 1.5rem;
+    padding: 1rem 1rem;
+    border-radius: 40px;
+    color: rgb(62, 57, 185);
+    box-shadow: 4px 4px 2px 0px rgb(62, 57, 185);
+    background-color: rgb(212, 211, 246);
+    z-index: 1;
+}
+
+main {
+    margin-top: 8rem;
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+    overflow: auto;
 }
 
 footer {
-    position: absolute;
+    position: fixed;
     bottom: .5rem;
     text-align: center;
+    padding: 1rem 1rem;
+    border-radius: 40px;
+    color: rgb(62, 57, 185);
+    box-shadow: 4px 4px 2px 0px rgb(62, 57, 185);
+    background-color: rgb(212, 211, 246);
 }
