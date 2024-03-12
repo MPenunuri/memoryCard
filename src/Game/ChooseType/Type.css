@@ -1,0 +1,9 @@
+/* button.type {
+    width: 20vw;
+    height: 20vh;
+} */
+
+button.type > img {
+    width: 10vw;
+    height: 10vh;
+}
