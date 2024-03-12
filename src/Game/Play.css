@@ -11,6 +11,19 @@ p.instruction {
     padding: 0;
     margin: 0;
     font-size: .75rem;
+    animation: setVisible 1s ease .5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+    
+@keyframes setVisible {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 p.instruction > strong {
